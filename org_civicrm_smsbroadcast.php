@@ -241,7 +241,7 @@ class org_civicrm_smsbroadcast extends CRM_SMS_Provider {
         $responses[$key]['error'] = ts("There was an error with this request. Reason: " . $messageData[1] . "\n");
       }
     }
-    $responses = [['success'=>1, 'data'=>['OK', '9665250228','abc123']]];
+    //$responses = [['success'=>1, 'data'=>['OK', '9665250228','abc123']]];
     return $responses;
   }
 }
