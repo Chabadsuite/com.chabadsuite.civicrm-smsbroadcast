@@ -218,14 +218,12 @@ class org_civicrm_smsbroadcast extends CRM_SMS_Provider {
    */
   private function curl($url, $postData) {
     $this->_fp = tmpfile();
-
     curl_setopt($this->_ch, CURLOPT_URL, $url);
     curl_setopt($this->_ch, CURLOPT_POST, TRUE);
     curl_setopt($this->_ch, CURLOPT_POSTFIELDS, $postData);
     curl_setopt($this->_ch, CURLOPT_RETURNTRANSFER, TRUE);
 
     $response = curl_exec($this->_ch);
-    CRM_Core_Error::debug('s', $response);
     $responses = [];
     $response = explode("\n", $response);
     foreach ($response as $key => $data) {
