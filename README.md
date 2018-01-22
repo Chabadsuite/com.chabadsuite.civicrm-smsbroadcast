@@ -29,7 +29,7 @@ This extension allows delivering short message service (SMS) messages through it
     1. In Username field give the valid username for SMS Broadcast account.
     1. In Password field give the valid password for SMS Broadcast account.
     1. Select "http" for the API Type.
-    1. Under API Parameters, enter "phone=sender phone number or sender name of SMS Broadcast account".
+    1. Under API Parameters, enter "from=sender phone number or sender name of SMS Broadcast account".
 1. The inbound SMS option must be activated by SMS Broadcast. If you require this function, please contact SMS Broadcast and
 provide them with the one of the below URL on your server to send the data.
     1. For Drupal
