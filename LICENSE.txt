@@ -1,4 +1,4 @@
-Package: org.civicrm.smsbroadcast
+Package: com.chabadsuite.civismsbroadcast
 Copyright (C) 2018, Edsel <edsel.lopez@jmaconsulting.biz>
 Licensed under the GNU Affero Public License 3.0 (below).
 

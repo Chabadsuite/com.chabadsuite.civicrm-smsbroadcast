@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<extension key="org.civicrm.smsbroadcast" type="module">
+<extension key="com.chabadsuite.civismsbroadcast" type="module">
   <file>smsbroadcast</file>
   <name>SMS Broadcast</name>
   <description>This extension allows delivering short message service (SMS) messages through its 'SMS Broadcast' Gateway to mobile phone users.</description>
@@ -9,9 +9,9 @@
     <email>pradpnayak@gmail.com</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">https://github.com/pradpnayak/org.civicrm.smsbroadcast/blob/master/README.md</url>
-    <url desc="Documentation">https://github.com/pradpnayak/org.civicrm.smsbroadcast/blob/master/README.md</url>
-    <url desc="Support">https://github.com/pradpnayak/org.civicrm.smsbroadcast/issues</url>
+    <url desc="Main Extension Page">https://github.com/pradpnayak/com.chabadsuite.civismsbroadcast/blob/master/README.md</url>
+    <url desc="Documentation">https://github.com/pradpnayak/com.chabadsuite.civismsbroadcast/blob/master/README.md</url>
+    <url desc="Support">https://github.com/pradpnayak/com.chabadsuite.civismsbroadcast/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2018-01-19</releaseDate>

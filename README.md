@@ -1,6 +1,6 @@
 # SMS BroadCast Integration
 
-#### org.civicrm.smsbroadcast
+#### com.chabadsuite.civismsbroadcast
 
 # Overview
 
@@ -33,10 +33,10 @@ This extension allows delivering short message service (SMS) messages through it
 1. The inbound SMS option must be activated by SMS Broadcast. If you require this function, please contact SMS Broadcast and
 provide them with the one of the below URL on your server to send the data.
     1. For Drupal
-        1. <yourdomain.org>/civicrm/sms/callback?provider=org.civicrm.smsbroadcast
+        1. <yourdomain.org>/civicrm/sms/callback?provider=com.chabadsuite.civismsbroadcast
     1. For Wordpress
-        1. <yourdomain.org>/?page=CiviCRM&q=/civicrm/sms/callback&provider=org.civicrm.smsbroadcast
+        1. <yourdomain.org>/?page=CiviCRM&q=/civicrm/sms/callback&provider=com.chabadsuite.civismsbroadcast
     1. For Joomla
-        1. <yourdomain.org>/index.php?option=com_civicrm&task=civicrm/sms/callback&provider=org.civicrm.smsbroadcast
+        1. <yourdomain.org>/index.php?option=com_civicrm&task=civicrm/sms/callback&provider=com.chabadsuite.civismsbroadcast
 
 This extension has been developed and is being maintained by [Pradeep Nayak](https://github.com/pradpnayak/).

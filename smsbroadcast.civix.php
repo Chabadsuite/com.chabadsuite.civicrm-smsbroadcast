@@ -170,7 +170,7 @@ function _smsbroadcast_civix_civicrm_managed(&$entities) {
     $es = include $file;
     foreach ($es as $e) {
       if (empty($e['module'])) {
-        $e['module'] = 'org.civicrm.smsbroadcast';
+        $e['module'] = 'com.chabadsuite.civismsbroadcast';
       }
       $entities[] = $e;
     }
@@ -199,7 +199,7 @@ function _smsbroadcast_civix_civicrm_caseTypes(&$caseTypes) {
       // throw new CRM_Core_Exception($errorMessage);
     }
     $caseTypes[$name] = array(
-      'module' => 'org.civicrm.smsbroadcast',
+      'module' => 'com.chabadsuite.civismsbroadcast',
       'name' => $name,
       'file' => $file,
     );

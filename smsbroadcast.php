@@ -84,14 +84,14 @@ function smsbroadcast_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
 function smsbroadcast_civicrm_managed(&$entities) {
   $entities[] = [
     'name' => 'SMS Broadcast',
-    'module' => 'org.civicrm.smsbroadcast',
+    'module' => 'com.chabadsuite.civismsbroadcast',
     'entity' => 'OptionValue',
     'update' => 'never',
     'params' => [
       'version' => 3,
       'option_group_id' => 'sms_provider_name',
       'label' => 'SMS Broadcast',
-      'value' => 'org.civicrm.smsbroadcast',
+      'value' => 'com.chabadsuite.civismsbroadcast',
       'name'  => 'sms_broadcast',
       'is_active'  => 1,
     ],
