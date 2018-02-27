@@ -127,11 +127,16 @@ class com_chabadsuite_civismsbroadcast extends CRM_SMS_Provider {
    * @access public
    */
   public function formURLPostData($header, $message) {
+    $maxSplit = NULL;
+    if (strlen($message) > 160) {
+      $count = strlen($message) / 153;
+      $maxSplit = '&maxsplit=' . ceil($count);
+    }
     $postDataArray = 'username='.rawurlencode($this->_providerInfo['username']) .
       '&password=' . rawurlencode($this->_providerInfo['password']) .
       '&to=' . rawurlencode($header['To']) .
       '&from=' . rawurlencode($this->_providerInfo['api_params']['from']) .
-      '&message=' . rawurlencode($message);
+      '&message=' . rawurlencode($message) . $maxSplit;
     return $postDataArray;
   }
 
